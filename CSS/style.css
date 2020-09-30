@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
 header ul {
     list-style: none;
      text-align: center;
@@ -22,7 +27,14 @@ header ul li a{
      font-size: 2.6vh;
  }
 header ul li:first-child a,header ul li a:hover{
-    color: #6F4D44
+    color: #1339d8
+}
+
+.header-item img{
+    width:10vw;
+   display: block;
+   margin: 0 auto;
+   padding: 20px;
 }
 
 .p1-box{
@@ -34,7 +46,7 @@ header ul li:first-child a,header ul li a:hover{
 
 .p1-item h3{
     font-size: 1.2em;
-    color: #ff6600;
+    color: #1339d8;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     margin-bottom: 30px;
@@ -55,7 +67,7 @@ header ul li:first-child a,header ul li a:hover{
     width: 80%;
 }
 .p1-item button.color {
-    background-color:#ff6600;
+    background-color:#1339d8;
     color: white;
     border: none;
     width: 30vw;
@@ -97,7 +109,7 @@ header ul li:first-child a,header ul li a:hover{
  }
 .p2-item button.color {
     background-color:white;
-    color: #ff6600;
+    color: #1339d8;
     border: none;
     width: 18vw;
     height: 5vh;
@@ -107,12 +119,12 @@ header ul li:first-child a,header ul li a:hover{
     display: block;
     margin: 20px auto;
     font-family: 'Raleway', sans-serif;
-    border: 1px solid #ff6600;
-    border-top: 2px solid #ff6600;
+    border: 1px solid #1339d8;
+    border-top: 2px solid #1339d8;
 }
 
 .p3 h3{
-    color: #ff6600;
+    color: #1339d8;
     font-size:1.3em;
     text-align: center;
     font-weight: 700;
@@ -137,7 +149,7 @@ header ul li:first-child a,header ul li a:hover{
     width: 50%;
  }
  .p3 button.color {
-    background-color:#ff6600;
+    background-color:#1339d8;
     color: white;
     border: none;
     width: 20vw;
@@ -159,7 +171,7 @@ header ul li:first-child a,header ul li a:hover{
     padding-top: 50px;;
 }
 .p4 h1 b{
-    color: #f06522;
+    color: #1339d8;
 }
 .p4-box{
     display:grid;
@@ -176,7 +188,7 @@ header ul li:first-child a,header ul li a:hover{
 }
 .p4 .btn{
     background-color: #f8f9fb;
-    color: #f06522;
+    color: #1339d8;
     font-weight:600;
 }
 .collapse{
@@ -189,7 +201,7 @@ header ul li:first-child a,header ul li a:hover{
     padding-bottom: 50px;
 }
 .p4 button.color {
-    background-color:#ff6600;
+    background-color:#1339d8;
     color: white;
     border: none;
     width: 20vw;
@@ -209,7 +221,7 @@ header ul li:first-child a,header ul li a:hover{
     margin-bottom: 50px;
 }
 .p5 h1 b{
-    color: #f06522;
+    color:#1339d8;
 }
 .p5 h2{
     text-align: center;
@@ -259,7 +271,7 @@ header ul li:first-child a,header ul li a:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.3em;
-   color: #ff6600;
+   color: #1339d8;
 
  }
 
@@ -318,9 +330,9 @@ form .input-fields{
     margin: 10px 0;
     background:transparent;
     border:0;
-    border-bottom: 2px solid#ff6600;
+    border-bottom: 2px solid#1339d8;
     padding:10px;
-    color:#ff6600;
+    color:#1339d8;
     width:100%;
         justify-content: center;
 }
@@ -329,8 +341,8 @@ form .input-fields{
     width: 60%;
 }
 .input-fields button{
-    background-color: #A36213;
-    color: #A36213;
+    background-color:#1339d8;
+    color:#1339d8;
     text-align: center;
     padding: 5px;
     cursor: pointer;
@@ -346,7 +358,7 @@ form .input-fields{
     
 }
 footer{
-    background-color:  #ff6600;;
+    background-color:  #1339d8;;
 }
 footer p{
     text-align: center;
@@ -382,6 +394,11 @@ footer p a{
          margin: 20px;
          font-weight: 400;
       }
+
+      #accordion{
+        width:100%;
+
+    }
       .whatsapp a img{
         position: fixed;
         top: 80vh;
@@ -389,5 +406,6 @@ footer p a{
         width: 12vw;
         
     }
+    
 
 }
