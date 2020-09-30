@@ -77,6 +77,10 @@ header ul li:first-child a,header ul li a:hover{
     text-transform: uppercase;
     font-weight: 700;
 }
+.p1-item img{
+    width: 30vw;
+    align-self: center;
+}
 
 .p2-box{
     display: grid;
@@ -358,21 +362,34 @@ form .input-fields{
     width: 4vw;
     
 }
-footer{
-    background-color:  #1339d8;;
-}
+
 footer p{
     text-align: center;
 }
-footer p a{
-    text-decoration: none;
-    font-size: 1.3em;
-    color: white;
-
-
-}
+footer{
+    border-top: 5px solid #1339d8; 
+ }
+ 
+ footer p a{
+     text-decoration: none;
+     font-size: 1.3em;
+     color: #1339d8;
+ }
 
 @media screen and (max-width:900px){
+   
+    .header-item img{
+        width:50vw;
+       display: block;
+       margin: 0 auto;
+       padding: 20px;
+    }
+    .p1-item img{
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
     .p1-box h1, .p5 h1 {
         font-size:2em
     }
