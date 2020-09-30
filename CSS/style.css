@@ -407,13 +407,13 @@ footer p a{
         background-color: #f8f9fb;
         color: #1339d8;
         font-weight:600;
-        font-size .5em;
+        font-size .5vw;
     }
     .collapse{
         background-color: #f3f3f3;
         color: #2b2b2b;
         font-weight:400;
-        font-size .5em;
+        font-size 0.5em;
     }
 
       .whatsapp a img{
