@@ -373,7 +373,7 @@ footer p a{
 }
 
 @media screen and (max-width:900px){
-    .p1-box h1 {
+    .p1-box h1, .p5 h1 {
         font-size:2em
     }
     .p1-box, .p2-box, .p4-box, .p5-box, .p5-c, .p6-box {
