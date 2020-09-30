@@ -343,7 +343,7 @@ form .input-fields{
 }
 .msg textarea{
     height: 80px;
-    width: 60%;
+    width: 100%;
 }
 .input-fields button{
     background-color:#1339d8;
@@ -444,6 +444,9 @@ footer{
         width: 12vw;
         
     }
-    
+    .msg textarea{
+        height: 80px;
+        width: 100%;
+    }
 
 }
