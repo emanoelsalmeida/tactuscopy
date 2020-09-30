@@ -394,11 +394,19 @@ footer p a{
          margin: 20px;
          font-weight: 400;
       }
-
-      #accordion{
-        width:100%;
-     margin: 0;
+      .p4 .btn{
+        background-color: #f8f9fb;
+        color: #1339d8;
+        font-weight:600;
+        font-size 1em;
     }
+    .collapse{
+        background-color: #f3f3f3;
+        color: #2b2b2b;
+        font-weight:400;
+        font-size 1em;
+    }
+
       .whatsapp a img{
         position: fixed;
         top: 80vh;
