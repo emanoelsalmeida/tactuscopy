@@ -265,6 +265,8 @@ header ul li:first-child a,header ul li a:hover{
  }
  .p5-counter{
     text-align: center;
+    /*texto caindo*/
+    animation: drop 1.5s ease;
  }
  .p5-counter .counter {
     text-align: center;
@@ -279,6 +281,16 @@ header ul li:first-child a,header ul li a:hover{
    color: #3fb4e9;
 
  }
+ @keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);        
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+        }
+    }
 
  .p6 h1{
     text-align: center;
@@ -309,6 +321,13 @@ header ul li:first-child a,header ul li a:hover{
     margin: 20px;
     font-weight: 400;
  }
+.p6-3-item{
+    font-size:1em ;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   margin: 30px 0;
+}
 
  .form-box{
     display: grid;
