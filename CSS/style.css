@@ -321,11 +321,11 @@ header ul li:first-child a,header ul li a:hover{
     margin: 20px;
     font-weight: 400;
  }
-.p6-3-item{
-    font-size:1em ;
+.p6-3-item h4{
+    font-size: 0.9em;
    text-align: center;
    font-family: 'Raleway', sans-serif;
-   font-weight: 700;
+   font-weight: 400;
    margin: 30px 0;
 }
 
@@ -349,6 +349,8 @@ form .input-fields{
     margin-right: 4%;
     justify-content:  center;
     width: 80%;  
+    display: block;
+    margin: 0 auto;
 }
 .input-fields input, .msg textarea{
     margin: 10px 0;
@@ -359,6 +361,7 @@ form .input-fields{
     color:#3fb4e9;
     width:100%;
         justify-content: center;
+        
 }
 .msg textarea{
     height: 80px;
