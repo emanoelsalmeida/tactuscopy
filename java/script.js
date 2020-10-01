@@ -10,7 +10,7 @@ counters.forEach(counter => {
 		const c = +counter.innerText;
 		
 		// get the 0.1% to speed up things
-		const increment = target / 500;
+		const increment = target / 1000;
 		
 		if(c < target) {
 			counter.innerText = `${Math.ceil(c + increment)}`;
